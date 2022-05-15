@@ -18,7 +18,7 @@ article.new {
     font-size: 24px;
 }
 
-li.topic.new {
+.topic.new {
     background-color: red;  
 }
 
