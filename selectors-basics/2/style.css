@@ -6,11 +6,7 @@
     background-color: gray;
 }
 
-a[href] {
-    color: green;
-} 
-
-a[target] {
+a[href],[target] {
     color: green;
 } 
 
