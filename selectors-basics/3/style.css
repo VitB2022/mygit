@@ -10,6 +10,5 @@ span.user-data {
     font-size: 10px;
 }
 
-span.company-data, .highlighted {
+[class="company-data"], [class="highlighted"] {
     color: yellow;
-}
