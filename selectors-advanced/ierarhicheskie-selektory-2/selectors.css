@@ -16,7 +16,7 @@
     background-color: green;
 }
 
-li h4 code {
+.already-learned li h4 code {
     border: 2px solid blue;
 }
 
