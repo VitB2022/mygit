@@ -1,18 +1,18 @@
-.already-learned ol li{
+.already-learned ol{
     color: white;
     background-color: green;
 }
 
-.to-be-learned ol li{
+.to-be-learned ol{
     color: green;
     background-color: orange;
 }
 
-.already-learned h4 code {
+.already-learned code {
     background-color: orange;
 }
 
-.to-be-learned h4 code {
+.to-be-learned code {
     background-color: green;
 }
 
