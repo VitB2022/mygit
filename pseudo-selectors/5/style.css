@@ -22,10 +22,6 @@ input {
     border: 3px solid red;
 }
 
-p .hello {
-    background-color: white;
-}
-
 #special {
     border: 2px solid blue;
 }
@@ -49,4 +45,8 @@ div p:nth-child(3) {
 div em {
     color: white;
     font-size: 20px;
+}
+
+.hello {
+    background-color: white !important;
 }
