@@ -2,17 +2,17 @@ li {
     margin-bottom: 16px;
 }
 
-ol li {
+ol li span {
     background-color: green;
     color: white;
 }
 
-ul li {
+ul li span{
     background-color: orange;
     color: white;
 }
 
-ul li:nth-child(4) {
+ul li:nth-child(4) span {
 border: 3px solid red;
 margin-left: 16px;
 }
@@ -20,3 +20,4 @@ margin-left: 16px;
 ul li:nth-child(5), li:nth-child(6) {
     margin-left: 16px;
 }
+
