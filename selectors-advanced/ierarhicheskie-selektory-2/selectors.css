@@ -1,4 +1,4 @@
-.already-learned li{
+.already-learned ol{
     color: white;
     background-color: green;
 }
@@ -16,7 +16,7 @@
     background-color: green;
 }
 
-.already-learned li h4 code {
+.already-learned ol li h4 code {
     border: 2px solid blue;
 }
 
