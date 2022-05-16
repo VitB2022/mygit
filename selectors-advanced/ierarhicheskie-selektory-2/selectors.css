@@ -1,0 +1,25 @@
+.already-learned ol {
+    color: white;
+    background-color: green;
+}
+
+.to-be-learned ol {
+    color: green;
+    background-color: orange;
+}
+
+.already-learned code {
+    background-color: orange;
+}
+
+.to-be-learned code {
+    background-color: green;
+}
+
+li h4 code {
+    border: 2px solid blue;
+}
+
+.to-be-learned ul li:nth-child(n+5) {
+    font-size: 24px;
+}
