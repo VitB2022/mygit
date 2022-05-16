@@ -8,11 +8,11 @@
     background-color: orange;
 }
 
-.already-learned code {
+.already-learned h4 code {
     background-color: orange;
 }
 
-.to-be-learned code {
+.to-be-learned h4 code {
     background-color: green;
 }
 
