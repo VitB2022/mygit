@@ -1,8 +1,8 @@
 
 header {
+    display: flex;
     height: 40px;
     background-color: yellow;
-    display: flex;
 }
 
 ul {
@@ -19,7 +19,7 @@ li {
 
 main {
     display: flex;
-   
+    flex-grow: 1;
 }
 
 section {
