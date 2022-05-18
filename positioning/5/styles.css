@@ -1,10 +1,13 @@
-*{margin: 0 auto;}
+* {
+    margin: 0 auto;
+}
 
 header {
     background-color: darkturquoise;
     height: 40px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 ul {
@@ -33,40 +36,41 @@ li {
     left: calc(50% - (40% / 2));
 }
 
-.ear_left {
+.ear {
     width: 40px;
     height: 60px;
     background-color: brown;
     position: absolute;
+}
+
+.ear_left {
+
     top: -60px;
     left: -40px;
 }
 
 .ear_right {
-    width: 40px;
-    height: 60px;
-    background-color: brown;
-    position: absolute;
+
     top: -60px;
     right: -40px;
 }
 
-.eye_left {
+.eye {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: gray;
     position: absolute;
+}
+
+.eye_left {
+
     top: 80px;
     left: 40px;  
 }
 
 .eye_right {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: gray;
-    position: absolute;
+   
     top: 80px;
     right: 40px;
 }
