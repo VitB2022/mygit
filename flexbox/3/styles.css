@@ -1,0 +1,60 @@
+
+header {
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+
+}
+
+li {
+    margin-left: 16px;
+}
+
+main {
+    display: flex;
+   
+}
+
+section {
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 200px;
+}
+
+aside h2 {
+    margin: 16px;
+    text-align: center;
+}
+
+aside span {
+    margin-left: 16px;
+    height: 40px;
+}
+
+footer {
+    height: 40px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+
+}
+
+p {
+    margin: 0 auto;
+}
