@@ -1,3 +1,6 @@
+* {
+    margin: 0 auto;
+}
 
 header {
     background-color: darkturquoise;
@@ -8,8 +11,8 @@ header {
 }
 
 ul {
-    margin: 0 auto;
     list-style: none;
+    line-height: 40px;
 
 }
 
