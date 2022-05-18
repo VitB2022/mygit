@@ -32,9 +32,8 @@ li {
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-    top: 50%; 
-    left: 0;
-    right: 0;
+    top: calc(50% - 200px/2);
+    left: calc(50% - 200px/2);
 }
 
 .ear {
