@@ -4,7 +4,7 @@
 
 header {
     background-color: darkturquoise;
-    height: 40px;
+    line-height: 40px;
     position: fixed;
     width: 100%;
     z-index: 1;
