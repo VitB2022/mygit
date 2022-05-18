@@ -32,11 +32,12 @@ main {
 }
 
 section {
-    width: 100%;
+
     background-color: pink;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-grow: 1;
 }
 
 aside {
