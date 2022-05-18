@@ -6,5 +6,10 @@ article {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
+}
+
+main {
+    display: flex;
     flex-basis: 300px;
+    flex-grow: 1;
 }
