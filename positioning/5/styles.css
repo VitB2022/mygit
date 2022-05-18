@@ -1,13 +1,17 @@
 
 header {
     background-color: darkturquoise;
-    line-height: 40px;
+    height: 40px;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
-
+nav {
+    position: absolute;
+    top:25%;
+}
 ul {
+    margin: 0 auto;
     list-style: none;
 }
 
