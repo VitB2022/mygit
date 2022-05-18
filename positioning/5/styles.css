@@ -1,8 +1,9 @@
 * {
     margin: 0 auto;
+    padding: 0;
 }
 
-header {
+header nav {
     background-color: darkturquoise;
     line-height: 40px;
     text-align: center;
