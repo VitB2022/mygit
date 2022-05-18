@@ -11,13 +11,14 @@ header {
 }
 
 ul {
+
     list-style: none;
     line-height: 40px;
 
 }
 
 li {
-    display: inline-block;
+    float: left;
     margin-left: 16px;
     color: white;
 }
