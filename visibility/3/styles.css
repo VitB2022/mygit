@@ -14,12 +14,14 @@
     position: absolute;
     list-style-type: none;
     padding: 0;
+    left: 16px;
     background-color: lightcyan;
     color: black;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    width: 120px;
+    min-width: 120px;
     z-index: 1;
     display: none;
+
 }
 
 .dropdown:hover .menu-list {
