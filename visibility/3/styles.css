@@ -38,10 +38,10 @@
     opacity: 1;
 }
 
-li {
+.menu-item {
     padding: 16px;
 }
 
-li:hover {
+.menu-item:hover {
    background-color: ghostwhite;
 }
