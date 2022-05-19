@@ -2,6 +2,8 @@
     
     margin: 16px;
     display: inline-block;
+    background-color: darkgreen;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -10,8 +12,6 @@
     color: white;
     font-size: 16px;
     padding: 16px;
-    background-color: darkgreen;
-    opacity: 0.8;
     
 }
 
