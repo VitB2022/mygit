@@ -1,5 +1,6 @@
 .dropdown {
     margin: 16px;
+    display: inline-block;
 }
 
 .menu-button {
@@ -12,6 +13,7 @@
 }
 
 .menu-list {
+    position: absolute;
     list-style-type: none;
     padding: 0;
     background-color: lightcyan;
