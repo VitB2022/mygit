@@ -30,6 +30,10 @@
     display: block;
 }
 
+.dropdown:hover {
+    opacity: 1;
+}
+
 li {
     padding: 16px;
 }
