@@ -1,0 +1,35 @@
+.dropdown {
+    margin: 16px;
+}
+
+.menu-button {
+    padding: 16px;
+    background-color: darkgreen;
+    opacity: 0.8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    background-color: lightcyan;
+    color: black;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    width: 120px;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown:hover .menu-list {
+    display: block;
+}
+
+li {
+    padding: 16px;
+}
+
+li:hover {
+   background-color: ghostwhite;
+}
