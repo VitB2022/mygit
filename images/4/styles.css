@@ -1,4 +1,9 @@
+.gallery {
+    display: inline-block;
+}
+
 .image {
+    float: left;
     width: 200px;
     height: 200px;
     margin: 16px;
@@ -6,6 +11,5 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    float: left;
 }
 
