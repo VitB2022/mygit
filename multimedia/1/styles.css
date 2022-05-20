@@ -1,4 +1,6 @@
-
+body {
+    box-sizing: border-box;
+}
 .main-image {
     margin: 50px auto 0;
     display: block;
@@ -11,7 +13,6 @@
 }
 
 .card {
-    box-sizing: border-box;
     margin: 16px;
     box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
 }
