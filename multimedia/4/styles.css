@@ -9,7 +9,7 @@
 
 .image-button {
     position: absolute;
-    width: 200px;
+    max-width: 200px;
     height: 50px;
     background-color: bisque;
     font-size: 12px;
