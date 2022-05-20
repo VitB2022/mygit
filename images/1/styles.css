@@ -12,4 +12,6 @@ div {
     color: white;
     padding-top: 32px;
     font-weight: 700;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
