@@ -20,7 +20,7 @@
     top: calc(50% - 25px);
     left: calc(50% - 100px);
     text-align: center;
-    
+    line-height: 50px;
 }
 
 .image-button:hover {
