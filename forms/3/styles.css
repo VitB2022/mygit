@@ -14,11 +14,11 @@ input[type="checkbox"] {
 }
 
 .checkbox {
+
     padding-left: 35px;
-    position: relative;
     font-size: 24px;
-    left: 16px;
-    top: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
 }
 
 .checkbox input:checked + .checkmark {
