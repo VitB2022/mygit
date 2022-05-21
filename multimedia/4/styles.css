@@ -10,7 +10,7 @@
 
 .image-button {
     position: absolute;
-    max-width: 200px;
+    width: 200px;
     background-color: bisque;
     font-size: 12px;
     text-transform: uppercase;
