@@ -1,9 +1,9 @@
 .form {
     margin: 32px;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 input, select, textarea {
     margin: 8px;
-    display: inline-block;
 }
