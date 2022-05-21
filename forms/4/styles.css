@@ -3,10 +3,9 @@ body {
 }
 
 .page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 12.5%;
+    position: absolute;
+    margin: 10% 35%;
+
 }
 .login-form {
     box-sizing: border-box;
