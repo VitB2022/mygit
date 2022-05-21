@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
     background-color: aqua;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 8px;
     font-size: 16px;
     font-family: monospace, sans-serif;
     width: 300px;
