@@ -44,3 +44,7 @@ body {
     border-radius: 4px;
     border: none;
 }
+
+.form-label + .form-input {
+margin-top: 4px;
+}
