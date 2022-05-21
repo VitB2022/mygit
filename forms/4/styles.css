@@ -1,9 +1,9 @@
 body {
-    box-sizing: border-box;
     background-color: bisque;
 }
 
 .login-form {
+    box-sizing: border-box;
     position: absolute;
     background-color: aqua;
     left: 0;
