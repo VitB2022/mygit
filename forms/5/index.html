@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forms</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <form class="form">
+
+<input name="primaryLanguage" type="text" value="HTML" disabled /><br>
+<input type="checkbox" name="agree" /><br>
+<input type="checkbox" name="like" checked readonly /><br>
+<input type="color" name="favouriteColor" value="ff7f50" /><br>
+<input type="date" name="birthDate" value="2021-01-02" /><br>
+<input type="datetime-local" name="birthDate" value="2024-10-04T13:02" /><br>
+<input type="email" name="bemail" placeholder="example@domain.com" required /><br>
+<input type="file" name="avatar" /><br>
+<input type="month" name="startLearning" value="2020-01" /><br>
+<input type="number" name="favouriteNumber" value="17" /><br>
+<input type="textarea" rows="5" cols="30" placeholder="A long time ago..." /><br>
+<input type="password" name="password" value="secret" /><br>
+<div>
+<input type="radio" name="html" />HTML
+<input type="radio" name="css" checked />CSS
+<input type="radio" name="javascript" />JavaScript
+</div>
+<input type="range" name="learningProgress" value="30" /><br>
+<select name="framework">
+    <option value="react" >React</option>
+    <option value="jquery" selected >jQuery</option>
+    <option value="bootstrap" >Bootstrap</option>
+</select><br>
+<input type="search" name="search" placeholder="Type first letters..." /><br>
+<input type="time" name="lunchEnd" value="14:01" /><br>
+<input type="url" name="website" placeholder="https://website.com" required /><br>
+<input type="week" name="birthWeek" value="2021-W51" /><br>
+<input type="submit" value="Save" />
+      
+    </form>
+ 
+  </body>
+</html>
