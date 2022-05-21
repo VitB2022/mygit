@@ -4,6 +4,5 @@
 }
 
 input, select, textarea {
-    margin: 4px;
-    box-sizing: border-box;
+    margin: 4px auto;
 }
