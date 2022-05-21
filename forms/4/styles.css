@@ -15,11 +15,11 @@ body {
     
     box-sizing: border-box;
     background-color: aqua;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     padding: 16px;
     font-size: 16px;
     font-family: monospace, sans-serif;
     width: 300px;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     display: block;
 }
 
@@ -56,4 +56,9 @@ margin-top: 4px;
 
 .form-input:invalid {
     border: 3px solid #ff0000;
+  }
+
+  .form-input[type="text"]:valid {
+    border: 3px solid #ff0000;
+    
   }
