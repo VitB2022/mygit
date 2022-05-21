@@ -5,7 +5,6 @@ input[type="checkbox"] {
 }
 
 .checkmark {
-    box-sizing: border-box;
     width: 25px;
     height: 25px;   
     background-color: #d3d3d3;
