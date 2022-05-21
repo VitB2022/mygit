@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Images</title>
+    <title>Forms</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -29,15 +29,17 @@
   <div class="form-control">
       <input type="checkbox" name="agree"><label>Accept terms and conditions</label>
   </div>
-  <div class="choose-gender">
-      <input type="radio" name="gender"><label>Male</label>
-      <input type="radio" name="gender"><label>Female</label>
-      <input type="radio" name="gender"><label>Secret</label>
+  <div class="form-control">
+    <div class="choose-gender"><input type="radio" name="gender"><label>Male</label></div>
+    <div class="choose-gender"><input type="radio" name="gender"><label>Female</label></div>
+    <div class="choose-gender"><input type="radio" name="gender"><label>Secret</label></div>
   </div>
   <div class="form-control">
       <textarea name="description" placeholder="Write description..."></textarea>
   </div>
+  <div class="form-control">
       <button type="submit">Submit</button>
+  </div>
 </form>
 
 </body>
