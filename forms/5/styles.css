@@ -1,7 +1,6 @@
 .form {
     margin: 32px;
     box-sizing: border-box;
-    display: inline-block;
 }
 
 input, select, textarea {
