@@ -2,14 +2,13 @@ body {
     background-color: bisque;
 }
 
+.page {
+    position: absolute;
+    margin: 0 auto;
+}
 .login-form {
     box-sizing: border-box;
-    position: absolute;
     background-color: aqua;
-    left: 0;
-    right: 0;
-    top: calc(50% - 300px);
-    margin: 0 auto;
     padding: 16px;
     font-size: 16px;
     font-family: monospace, sans-serif;
