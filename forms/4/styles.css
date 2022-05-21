@@ -34,7 +34,7 @@ body {
     border: 1px solid #808080;
     border-radius: 4px;
     outline: none;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
    
 }
 
@@ -52,3 +52,7 @@ body {
 .form-label + .form-input {
 margin-top: 4px;
 }
+
+.form-input:invalid {
+    border: 3px solid #ff0000;
+  }
