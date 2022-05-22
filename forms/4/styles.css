@@ -3,7 +3,6 @@ body {
 }
 
 .login-form {
-    position: relative;
     box-sizing: border-box;
     max-width: 300px;
     width: 100%;
@@ -52,7 +51,7 @@ body {
 }
 
 .form-label {
-    box-sizing: border-box;
+
     display: inline-block;
     margin-bottom: 4px;
 }
