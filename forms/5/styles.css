@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-input, select, textarea {
+div {
     margin: 8px;
-    display: inline-block;
 }
