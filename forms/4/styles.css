@@ -2,6 +2,10 @@ body {
     background-color: bisque;
 }
 
+.page {
+    width: 300px;
+}
+
 .login-form {
     position: relative;
     box-sizing: border-box;
@@ -46,7 +50,9 @@ body {
     text-transform: uppercase;
     color: white;
     border-radius: 4px;
-    border: none;
+    border: 0;
+    padding: 0;
+
 }
 
 .form-label + .form-input {
