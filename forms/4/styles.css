@@ -34,6 +34,7 @@ body {
     border-radius: 4px;
     padding: 4px;
     outline: none;
+    margin-bottom: 8px;
 
 }
 
@@ -57,5 +58,6 @@ body {
   }
 
   div {
-    margin-bottom: 8px;
+      display: block;
+      box-sizing: border-box;
   }
