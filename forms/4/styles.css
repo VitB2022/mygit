@@ -4,6 +4,7 @@ body {
 
 .login-form {
     box-sizing: border-box;
+    display: inline-block;
     width: 300px;
     padding: 16px;
     position: absolute;
