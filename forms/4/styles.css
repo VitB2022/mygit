@@ -2,10 +2,6 @@ body {
     background-color: bisque;
 }
 
-.page {
-    width: 300px;
-}
-
 .login-form {
     position: relative;
     box-sizing: border-box;
@@ -54,8 +50,9 @@ body {
 
 }
 
-.form-label + .form-input {
-    margin-top: 4px;
+.form-label {
+    display: inline-block;
+    margin-bottom: 4px;
 }
 
 .form-input:invalid {
