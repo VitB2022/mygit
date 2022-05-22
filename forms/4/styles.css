@@ -44,13 +44,13 @@ body {
     text-transform: uppercase;
     color: white;
     border-radius: 4px;
-
+    border: 0;
 }
 
 .form-label {
-
+    box-sizing: border-box;
     display: inline-block;
-    margin-bottom: 4px;
+    padding-bottom: 4px;
 }
 
 .form-input:invalid {
