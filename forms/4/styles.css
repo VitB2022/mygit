@@ -1,10 +1,11 @@
 body {
     background-color: bisque;
+    
 }
 
 .login-form {
+    display: block;
     position: relative;
-    box-sizing: border-box;
     max-width: 300px;
     width: 100%;
     padding: 16px;
