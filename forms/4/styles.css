@@ -2,14 +2,6 @@ body {
     background-color: bisque;
 }
 
-.page {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-}
-
 .login-form {
     position: relative;
     box-sizing: border-box;
