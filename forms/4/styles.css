@@ -4,7 +4,7 @@ body {
 }
 
 .login-form {
-    
+    display: block;
     position: relative;
     max-width: 300px;
     width: 100%;
@@ -29,6 +29,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 32px;
+    display: block;
     border: 1px solid #808080;
     border-radius: 4px;
     padding: 4px;
