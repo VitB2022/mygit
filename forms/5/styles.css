@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-div {
+div, p {
     margin: 8px;
-}
-
-input[type="radio"] {
-    margin-left: 8px;   
 }
