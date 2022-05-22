@@ -42,7 +42,6 @@ body {
 }
 
 .submit-button {
-    display: block;
     width: 100%;
     height: 32px;
     background-color: #ff7f50;
