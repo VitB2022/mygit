@@ -5,7 +5,7 @@ body {
 .login-form {
     box-sizing: border-box;
     width: 300px;
-    margin: 0;
+    padding: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -13,7 +13,6 @@ body {
     transform: translate(-50%, -50%);
     background-color: aqua;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    padding: 16px;
     font-size: 16px;
     font-family: monospace, sans-serif;
 }
@@ -27,6 +26,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 32px;
+    display: block;
     border: 1px solid #808080;
     border-radius: 4px;
     padding: 4px;
@@ -36,7 +36,7 @@ body {
 }
 
 .submit-button {
-    box-sizing: border-box;
+
     width: 100%;
     height: 32px;
     background-color: #ff7f50;
