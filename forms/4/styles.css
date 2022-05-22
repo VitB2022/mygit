@@ -49,7 +49,7 @@ body {
 }
 
 .form-label + .form-input {
-    margin: 4px;
+    margin-top: 4px;
 }
 
 .form-input:invalid {
