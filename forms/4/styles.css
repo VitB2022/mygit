@@ -4,7 +4,7 @@ body {
 }
 
 .login-form {
-    display: block;
+    
     position: relative;
     max-width: 300px;
     width: 100%;
@@ -34,7 +34,6 @@ body {
     border-radius: 4px;
     padding: 4px;
     outline: none;
-    margin-bottom: 8px;
 
 }
 
@@ -55,4 +54,8 @@ body {
 
 .form-input:invalid {
     border: 3px solid #ff0000;
+  }
+
+  div {
+    margin-bottom: 8px;
   }
