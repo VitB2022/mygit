@@ -22,6 +22,6 @@ tr:first-child td, tr:last-child td {
 }  
 tr:nth-child(even) > td:nth-child(odd),
 tr:nth-child(odd) > td:nth-child(even) {
-  background: black;
+    background: black;
 }
 
