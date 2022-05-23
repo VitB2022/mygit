@@ -10,18 +10,13 @@
       crossorigin="anonymous"
     />
     <style>
-
-      body {
-           box-sizing: border-box;
-      }       
-
-       table {
-           
+     
+        table {
             width: 500px;
             margin: 16px;
        }
 
-       table, td, th {
+        table, td, th {
             border: 1px solid black;
             border-collapse: collapse; 
        }
@@ -29,32 +24,32 @@
         td, th {
             padding: 4px;
             text-align: right;
-            line-height: 40px;
+            height: 40px;
        }
 
-       div {
-           
+        div {
+           box-sizing: border-box;
            overflow-x: auto;
        }
 
-       tbody tr:nth-child(odd) {
+        tbody > tr:nth-child(odd) {
            background-color: #f2f2f2;
        }
 
-       tbody tr:hover {
+        tbody > tr:hover {
          color: white;
          background-color: #aaa;
        }
 
-       thead {
+        thead {
         background-color: aqua;
        }
 
-       tfoot {
+        tfoot {
          font-weight: 700;
        }
 
-       caption {
+        caption {
          margin-bottom: 8px;
        }
 
