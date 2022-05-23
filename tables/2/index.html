@@ -12,26 +12,27 @@
     <style>
 
         div {
-           display: inline-block;
+           padding: 0;
            overflow-x: auto;
        }
 
         table {
-
+            box-sizing: border-box;
             width: 500px;
             margin: 16px;
        }
 
         table, td, th {
-            box-sizing: border-box;
+
             border: 1px solid black;
             border-collapse: collapse; 
        }
-
+        tr {
+            height: 40px;
+       }
         td, th {
             padding: 4px;
             text-align: right;
-            line-height: 40px;
        }
 
         tbody > tr:nth-child(odd) {
@@ -48,6 +49,7 @@
        }
 
         tfoot {
+             padding: 0;
              font-weight: 700;
        }
 
