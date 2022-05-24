@@ -3,6 +3,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .spinner-text {
@@ -15,7 +16,6 @@
 .circle {
     width: 50px;
     height: 50px;
-    box-sizing: border-box;
     border-bottom: 4px solid lightgrey;
     border-left: 4px solid lightgrey;
     border-right: 4px solid lightgrey;
