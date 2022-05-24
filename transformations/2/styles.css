@@ -14,29 +14,18 @@ body {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    animation: jumpfirst .4s, ease-in-out,
-               jumpsecond .5s, ease-in-out,
+    animation: jump .4s alternate .5s, ease-in-out,
                spin .5s ease-in-out,
-               hide .5s 2s ease;
+               hide .5s 2s ease infinite;
 }
 
-@keyframes jumpfirst {
+@keyframes jump {
     0% {
        transform: translateY(0);
     }
 
     100% {
         transform: translateY(-40px);
-    }
-}
-
-@keyframes jumpsecond {
-    100% {
-       transform: translateY(-40px);
-    }
-
-    0% {
-        transform: translateY(0);
     }
 }
 
