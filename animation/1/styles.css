@@ -15,6 +15,9 @@
     opacity: 0.5;
     transition-property: width, opacity;
     transition-duration: 2s, 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rect:hover {
