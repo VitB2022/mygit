@@ -16,7 +16,7 @@ body {
     margin: auto;
     animation: jump .4s alternate .5s, ease-in-out,
                spin .5s ease-in-out,
-               hide .5s 2s ease infinite;
+               hide forwards .5s 2s ease infinite;
 }
 
 @keyframes jump {
