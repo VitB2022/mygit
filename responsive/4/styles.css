@@ -1,7 +1,7 @@
 html {
-  font-family: Verdana;
-  color: #555;
-  font-size: 16px;
+    font-family: Verdana;
+    color: #555;
+    font-size: 16px;
 }
 
 .header {
@@ -11,8 +11,8 @@ html {
 }
 
 h1 {
- color: white;
- text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .main {
@@ -33,22 +33,21 @@ h1 {
 .nav-list {
    list-style-type: none;
    padding: 0.5em;
-   line-height: 2em;
 }
 
-.nav-list-item {
-    margin-bottom: 0.5em;
-}
+
 
 .nav-list-link {
    display: block;
    background-color: #808080;
    color: white;
+   line-height: 2em;
    padding-left: 0.5em;
    text-decoration: none;
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;
+   margin-bottom: 0.5em;
 }
 
 .section {
