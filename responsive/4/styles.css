@@ -2,6 +2,7 @@ html {
     font-family: Verdana;
     color: #555;
     font-size: 16px;
+    min-height: 100%;
 }
 
 .header {
@@ -87,5 +88,5 @@ footer {
     box-sizing: border-box;
     background-color: #e5e5e5;
     padding: 0.5em;
-    margin-top: 0 auto;
+    margin-top: auto;
 }
