@@ -2,22 +2,22 @@ html {
     font-size: 18px;
 }
 
-.font-in-pix {
+span.font-in-pix {
     font-size: 27px;
 }
 
-.font-in-em {
+span.font-in-em {
     font-size: 1.5em;
 }
 
-.font-in-vw {
+span.font-in-vw {
     font-size: 5vw;
 }
 
-.font-in-percents {
+span.font-in-percents {
     font-size: 150%;
 }
 
-.font-in-rem {
+span.font-in-rem {
     font-size: 1.5rem;
 }
