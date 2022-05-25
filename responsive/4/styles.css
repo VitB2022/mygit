@@ -28,7 +28,6 @@ h1 {
 .navigation {
    width: 20%;
    padding: 0;
-   box-sizing: border-box;
 }
 
 .nav-list {
@@ -40,6 +39,7 @@ h1 {
 
 .nav-list-link {
    display: block;
+   box-sizing: border-box;
    background-color: #808080;
    color: white;
    line-height: 2em;
