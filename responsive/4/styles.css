@@ -2,7 +2,6 @@ html {
   font-family: Verdana;
   color: #555;
   font-size: 16px;
-  box-sizing: border-box;
 }
 
 .header {
@@ -22,6 +21,7 @@ h1 {
 
 .section, .navigation, .news {
    padding: 0.5em;
+   box-sizing: border-box;
 }
 
 .navigation {
@@ -80,6 +80,7 @@ h1 {
 footer {
     position: absolute;
     width: 100%;
+    box-sizing: border-box;
     background-color: #e5e5e5;
     padding: 0.5em;
     text-align: center;
