@@ -35,11 +35,8 @@ h1 {
    padding: 0.5em;
 }
 
-
-
 .nav-list-link {
    display: block;
-   box-sizing: border-box;
    background-color: #808080;
    color: white;
    line-height: 2em;
@@ -63,7 +60,6 @@ h1 {
 
 .units-list {
     line-height: 1.75em;
-    list-style-type: none;
 
 }
 
