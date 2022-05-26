@@ -8,6 +8,10 @@ html {
     box-sizing: border-box;
   }
 
+body {
+    min-height: 100vh;
+}
+
 .header {
     width: 100%;
     display: inline-block;
@@ -21,12 +25,11 @@ h1 {
 
 .main {
     display: flex;
-    min-height: 100vh;
+    flex-grow: 1;
 }
 
 .section, .navigation, .news {
    padding: 0.5em;
-   box-sizing: border-box;
 }
 
 .navigation {
