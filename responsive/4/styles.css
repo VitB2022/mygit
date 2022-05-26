@@ -26,6 +26,7 @@ h1 {
 
 .section, .navigation, .news {
    padding: 0.5em;
+   box-sizing: border-box;
 }
 
 .navigation {
