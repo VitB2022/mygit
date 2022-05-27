@@ -1,0 +1,3 @@
+no-var
+no-undef
+no-return-assign
