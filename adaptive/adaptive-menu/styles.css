@@ -28,7 +28,6 @@
     .nav-list-item {
         height: 2em;
         margin: 0.5em;
-        padding: 0.5em;
         background-color: #808080;
     }
     
@@ -39,6 +38,7 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        padding: 0.5em;
     }
     
     .btn {
