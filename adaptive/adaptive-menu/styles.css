@@ -43,7 +43,7 @@
         margin-right: 0.5em;
     }
     
-    .btn {
+    .fa {
         font-size: 2em;
         cursor: pointer;
         padding: 0;
@@ -52,7 +52,7 @@
     }
     
     @media screen and (min-width: 600px) {
-        .btn {
+        .fa {
             display: none;
         }
     }
