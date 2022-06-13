@@ -26,10 +26,9 @@
     }
     
     .nav-list-item {
-        height: 2em;
+        line-height: 2em;
         margin: 0.5em;
         background-color: #808080;
-        padding: 0.5em;
     }
     
     .nav-list-link {
