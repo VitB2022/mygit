@@ -32,6 +32,9 @@
         display: block;
         color: white;
         text-decoration: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     
     .btn {
