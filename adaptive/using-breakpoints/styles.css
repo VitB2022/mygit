@@ -36,6 +36,12 @@
             .products {
                 display: flex;
             }
+            .navigation {
+                flex-basis: 50%;
+            }
+            .products-list {
+                flex-basis: 50%;
+            }
         }
         
         @media screen and (min-width: 900px) {
