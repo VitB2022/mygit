@@ -105,6 +105,9 @@ img {
     .navigation {
         min-width: 100%;
     }
+    .main {
+        display: inline;
+    }
     .section {
         width: 100%;
     }
@@ -116,6 +119,9 @@ img {
 @media (min-width: 900px) and (max-width: 1200px) {
     .main {
         display: block;
+    }
+    .section {
+        width: 100%;
     }
     .news {
         width: 100%;
