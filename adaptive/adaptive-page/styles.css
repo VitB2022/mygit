@@ -105,8 +105,8 @@ img {
     .navigation {
         min-width: 100%;
     }
-    .main {
-        display: block;
+    .section {
+        width: 100%;
     }
     .news {
         width: 100%;
