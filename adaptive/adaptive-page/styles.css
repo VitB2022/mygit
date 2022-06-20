@@ -119,6 +119,10 @@ img {
     .main {
         display: flex;
     }
+    .content {
+        display: flex;
+        flex-grow: 2;
+    }
     .section {
         width: 80vw;
     }
@@ -126,6 +130,7 @@ img {
         width: 20vw;
     }
     .news {
+        display: block;
         width: 100%;
     }
 }
