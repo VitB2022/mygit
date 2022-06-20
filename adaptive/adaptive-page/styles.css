@@ -61,7 +61,7 @@ h1 {
 
 .main {
     display: flex;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .content {
