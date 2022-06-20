@@ -118,6 +118,7 @@ img {
 @media (min-width: 600px) and (max-width: 1200px) {
     .main {
         display: flex;
+        flex-direction: column;
     }
     .content {
         display: flex;
@@ -129,7 +130,6 @@ img {
         width: 20vw;
     }
     .news {
-        display: block;
         width: 100%;
     }
 }
