@@ -55,7 +55,7 @@ h1 {
 }
 
 .section {
-    min-width: 60%;
+    min-width: 60vw;
     font-size: 1.25em;
 }
 
@@ -84,7 +84,7 @@ h1 {
 }
 
 .news {
-    min-width: 20%;
+    min-width: 20vw;
 }
 
 footer {
