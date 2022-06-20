@@ -55,12 +55,13 @@ h1 {
 }
 
 .section {
-    min-width: 60vw;
+    min-width: 60%;
     font-size: 1.25em;
 }
 
 .main {
     display: flex;
+    flex-grow: 1;
 }
 
 .content {
@@ -84,7 +85,7 @@ h1 {
 }
 
 .news {
-    min-width: 20vw;
+    min-width: 20%;
 }
 
 footer {
