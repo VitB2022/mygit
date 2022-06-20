@@ -84,7 +84,7 @@ h1 {
 }
 
 .news {
-    padding: 0.5em;
+    min-width: 20%;
 }
 
 footer {
