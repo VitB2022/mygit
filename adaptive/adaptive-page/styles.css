@@ -121,7 +121,6 @@ img {
     }
     .content {
         display: flex;
-        flex-grow: 2;
     }
     .section {
         width: 80vw;
