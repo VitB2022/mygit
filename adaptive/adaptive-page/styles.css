@@ -100,8 +100,6 @@ img {
     height: auto;
 }
 
-@media screen and (min-width: 600px) {}
-
 @media screen and (max-width: 600px) {
     .navigation {
         min-width: 100%;
@@ -118,14 +116,16 @@ img {
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
+    .main {
+        display: flex;
+    }
     .section {
-        width: 80%;
+        width: 80vw;
     }
     .navigation {
-        display: block;
-        width: 20%;
+        width: 20vw;
     }
     .news {
-        width: 100wv;
+        width: 100%;
     }
 }
