@@ -27,7 +27,10 @@ h1 {
 
 .main {
     display: flex;
-    flex-grow: 1;
+}
+
+.content {
+    display: flex;
 }
 
 .section,
