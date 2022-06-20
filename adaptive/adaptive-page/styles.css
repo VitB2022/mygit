@@ -55,7 +55,7 @@ h1 {
 }
 
 .section {
-    min-width: 60%;
+    width: 60vw;
     font-size: 1.25em;
 }
 
