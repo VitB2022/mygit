@@ -33,6 +33,7 @@ h1 {
 
 .navigation {
     width: 20vw;
+    flex-grow: 1;
 }
 
 .nav-list {
@@ -57,6 +58,7 @@ h1 {
 .section {
     width: 60vw;
     font-size: 1.25em;
+    flex-grow: 1;
 }
 
 .main {
@@ -85,6 +87,7 @@ h1 {
 
 .news {
     width: 20vw;
+    flex-grow: 1;
 }
 
 footer {
