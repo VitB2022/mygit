@@ -1,47 +1,54 @@
-body {
+@import 'variables.scss';
+.navigation {
+    background-color: $color-navigation;
+    min-height: 200px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    flex-grow: 1;
 }
 
-.container {
+.products-list {
+    background-color: $color-products;
+    min-height: 200px;
     display: flex;
+    flex-grow: 1;
 }
 
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: #ff7f50;
-    margin: 8px;
+.news {
+    background-color: #0ff;
+    min-height: 200px;
+    display: flex;
+    flex-grow: 1;
+}
+
+span {
+    font-family: Verdana;
+    text-transform: lowercase;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: $color-span;
+    margin: auto;
 }
 
 @media screen and (min-width: 600px) {
-    .square {
-        background-color: #8a2be2;
+    .products {
+        display: flex;
+    }
+    .navigation {
+        flex-basis: 50%;
+    }
+    .products-list {
+        flex-basis: 50%;
     }
 }
 
 @media screen and (min-width: 900px) {
-    .square {
-        background-color: #a61;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .square {
-        background-color: #c47;
-    }
-}
-
-@media screen and (orientation: portrait) {
     .container {
-        flex-direction: column;
+        display: flex;
     }
-}
-
-@media screen and (orientation: landscape) {
-    .container {
-        flex-direction: row;
+    .products {
+        flex: 2;
+    }
+    .news {
+        flex: 1;
     }
 }
