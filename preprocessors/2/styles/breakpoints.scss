@@ -18,3 +18,15 @@ $lg: 1200px;
         @content;
     }
 }
+
+@mixin for-portrait {
+    @media screen and (orientation: portrait) {
+        @content;
+    }
+}
+
+@mixin for-landscape {
+    @media screen and (orientation: landscape) {
+        @content;
+    }
+}
